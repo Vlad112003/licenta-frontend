@@ -1,0 +1,46 @@
+/* src/pages/GenerateQuestion.css */
+.lesson-textarea {
+    min-height: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+    --padding-start: 12px;
+    --padding-end: 12px;
+    font-size: 16px;
+}
+
+.generate-button-container {
+    margin: 20px 0;
+}
+
+.questions-container {
+    margin-top: 30px;
+}
+
+.error-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0;
+    color: var(--ion-color-danger);
+}
+
+.options-list {
+    margin-top: 10px;
+}
+
+.option-item {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: dimgrey;
+    border-radius: 4px;
+}
+
+.correct-answer {
+    margin-top: 16px;
+    padding: 10px;
+    background-color: rgba(var(--ion-color-success-rgb), 0.1);
+    border-radius: 4px;
+}

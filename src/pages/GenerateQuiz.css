@@ -1,0 +1,114 @@
+/* src/pages/GenerateQuiz.css */
+.lesson-textarea {
+    border: 1px solid var(--ion-color-medium);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgba(var(--ion-color-light-rgb), 0.7);
+}
+
+.generate-button-container {
+    margin: 24px 0;
+}
+
+.progress-container {
+    margin-bottom: 24px;
+}
+
+.step-indicators {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.step-indicator {
+    color: var(--ion-color-medium);
+}
+
+.step-indicator.active {
+    color: var(--ion-color-primary);
+    font-weight: bold;
+}
+
+.error-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(var(--ion-color-danger-rgb), 0.1);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.question-text {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.answer-divider {
+    margin: 16px 0 8px;
+}
+
+.answer-textarea {
+    border: 1px solid var(--ion-color-medium);
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score-badge {
+    font-size: 14px;
+    padding: 6px 8px;
+}
+
+.overall-score {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--ion-color-primary);
+    margin-bottom: 0;
+}
+
+.answer-section {
+    margin: 16px 0;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: rgba(var(--ion-color-light-rgb), 0.5);
+}
+
+.answer-section h4 {
+    margin-top: 0;
+    font-size: 14px;
+    color: var(--ion-color-medium);
+}
+
+.student-answer {
+    padding: 8px;
+    border-left: 3px solid var(--ion-color-medium);
+}
+
+.correct-answer {
+    padding: 8px;
+    border-left: 3px solid var(--ion-color-success);
+}
+
+.high-score {
+    border-left: 4px solid var(--ion-color-success);
+}
+
+.low-score {
+    border-left: 4px solid var(--ion-color-warning);
+}
+
+.quiz-summary {
+    background-color: rgba(var(--ion-color-light-rgb), 0.7);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+}

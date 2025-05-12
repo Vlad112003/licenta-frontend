@@ -1,0 +1,21 @@
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.spinner-message {
+    margin-top: 16px;
+    font-size: 0.9rem;
+    color: var(--ion-color-medium);
+}
+
+.fullscreen-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
