@@ -29,6 +29,8 @@ import { AuthProvider } from './contexts/AuthContext';
 import AllStudents from "./pages/AllStudents";
 import GenerateQuestion from "./pages/GenerateQuestion";
 import GenerateQuiz from "./pages/GenerateQuiz";
+import GenerateGridQuiz from "./pages/GenerateGridQuiz";
+import GenerateObjectiveQuiz from "./pages/GenerateObjectiveQuiz";
 
 setupIonicReact();
 
@@ -54,6 +56,12 @@ const App: React.FC = () => (
             </Route>
             <Route exact path="/generate-quiz">
                    <GenerateQuiz />
+            </Route>
+            <Route exact path="/generate-grid-quiz">
+              <GenerateGridQuiz />
+            </Route>
+            <Route exact path="/generate-objective-quiz">
+              <GenerateObjectiveQuiz />
             </Route>
             <Route exact path="/">
               <Redirect to="/home" />

@@ -71,7 +71,7 @@ const Dashboard: React.FC = () => {
         }
     };
 
-    // Rest of the component remains the same
+
     const renderUserDashboard = () => (
         <>
             <h1>Hello {email || 'Student'}</h1>
@@ -83,6 +83,13 @@ const Dashboard: React.FC = () => {
 
             <IonButton expand="block" onClick={() => history.push('/generate-quiz')}>
                 Quiz Based on Your Text
+            </IonButton>
+
+            <IonButton expand="block" onClick={() => history.push('/generate-grid-quiz')}>
+                Generate Multiple Choice Quiz
+            </IonButton>
+            <IonButton expand="block" onClick={() => history.push('/generate-objective-quiz')}>
+                Generate Objective Quiz
             </IonButton>
 
             <IonButton expand="block" color="danger" onClick={handleLogout}>
